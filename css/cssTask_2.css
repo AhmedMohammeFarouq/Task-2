@@ -1,0 +1,69 @@
+/* Start Variables*/
+
+/* End Variables*/
+/* Start Global Rules */
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Work Sans", sans-serif;
+}
+
+.sections{
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px,1fr));
+}
+/* Small */
+@media (min-width: 750px ){
+    .container {
+        width: 750px;
+    }
+}
+/* Medium */
+@media (min-width: 992px ){
+    .container {
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width: 1200px ){
+    .container {
+        width: 1170px;
+    }
+}
+/* End Global Rules */ 
+.sections .feat {
+    position: relative;
+    border: 2px solid #999;
+}
+.sections .feat i {
+    position: relative;
+    font-size: 30px;
+    top:35% ;
+    left: 30px;
+}
+.sections .feat .numbers {
+    font-size: 40px;
+    font-weight: 700;
+}
+.sections .feat p {
+    color: #777;
+    font-size: 13px;
+    font-weight: 400;
+}
+.sections .feat .numbers ,
+.sections .feat p {
+        position: relative;
+        left: 20%;
+}
+
+
+
+
